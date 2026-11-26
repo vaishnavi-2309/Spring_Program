@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		ApplicationContext ap=new AnnotationConfigApplicationContext(SpringConfig.class);
 		
 		Calculator c=ap.getBean("cal",Calculator.class);
-		
+		c.addition();
 }
 
 }
